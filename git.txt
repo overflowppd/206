@@ -1,0 +1,10 @@
+git命令
+创建版本库   git init
+管理工具    git add 文件名
+提交    git conmmit -m "说明"
+回退版本   git reset --hard commit id/ HEAD
+撤销工作区的修改   git checkout --文件名/ git restore文件名  
+暂存区的修改   git reset head/git restore --unstage 文件名
+工作区的删除 rm
+版本库工作区的删除  git rm
+查看状态 git status   查看版本号 git log  查看之前历史的操作命令 git relog 查看修改的内容 git diff
